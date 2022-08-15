@@ -5,8 +5,7 @@ import first.*;
 /**
  * 学生のクラスの拡張
  */
-public class StudentExt extends Student 
-        implements Comparable<StudentExt> {
+public class StudentExt extends Student implements Comparable<StudentExt> {
 
     public StudentExt(String name) {  super(name);  }
 
