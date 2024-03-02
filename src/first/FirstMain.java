@@ -4,6 +4,7 @@ public class FirstMain {
 
     /**
      * 整列
+     *
      * @param students Studentクラスのインスタンスからなる配列
      */
     public static void sort(Student students[]) {

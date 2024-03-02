@@ -13,10 +13,12 @@ public class StudentExt extends Student implements Comparable<StudentExt> {
 
     /**
      * 比較する
-     * @param o
+     * @param target
      * @return
      */
     @Override
-    public int compareTo(StudentExt o) {  return this.score - o.score;  }
+    public int compareTo(StudentExt target) {
+        return this.score - target.score;  
+    }
 
 }

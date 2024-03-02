@@ -1,7 +1,5 @@
 package second;
 
-import first.*;
-
 public class SecondMain {
 
     /**
@@ -34,8 +32,8 @@ public class SecondMain {
             new StudentExt("Joan", 70), new StudentExt("Jane", 80),
             new StudentExt("Sam", 85), new StudentExt("Tom", 75)};
         sort(students);//整列の実施
-        for (int i = 0; i < students.length; i++) {//結果出力
-            System.out.println(students[i]);
+        for (StudentExt student : students) {//結果出力
+            System.out.println(student);
         }
     }
 

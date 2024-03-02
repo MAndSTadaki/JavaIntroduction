@@ -12,7 +12,9 @@ public class Student {
      * 名前を指定したコンストラクタ
      * @param name
      */
-    public Student(String name) {  this.name = name; }
+    public Student(String name) {
+        this.name = name;
+    }
 
     /**
      * 名前と点数を指定したコンストラクタ
@@ -28,18 +30,24 @@ public class Student {
      * 点数を再設定
      * @param score
      */
-    public void setScore(int score) {  this.score = score;  }
+    public void setScore(int score) {
+        this.score = score;
+    }
 
     /**
      * 点数を取得
-     * @return 
+     * @return
      */
-    public int getScore() {  return score;  }
-    
+    public int getScore() {
+        return score;
+    }
+
     /**
      * インスタンスを文字列化
      * @return
      */
     @Override
-    public String toString() {  return name + ":" + String.valueOf(score);  }
+    public String toString() {
+        return name + ":" + String.valueOf(score);
+    }
 }
